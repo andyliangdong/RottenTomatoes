@@ -1,0 +1,29 @@
+Rotten Tomatoes (raw)
+This is a movies app displaying box office and top rental DVDs using the Rotten Tomatoes API.
+
+Time spent: <11+ hours>
+
+Features
+Required
+
+[2] User can view a list of movies. Poster images load asynchronously.
+[1] User can view movie details by tapping on a cell.
+[1 Using MBProgressHUD] User sees loading state while waiting for the API.
+[1.5 ] User sees error message when there is a network error: http://cl.ly/image/1l1L3M460c3C
+[0.8 ] User can pull to refresh the movie list.
+Optional
+
+[2] Add a tab bar for Box Office and DVD.
+[ ] Implement segmented control to switch between list view and grid view.
+[1.5 Not working] Add a search bar.
+[ ] All images fade in.
+[0.5] For the large poster, load the low-res image first, switch to high-res when complete.
+[0.6 bring side effects using UIColor so I disable] Customize the highlight and selection effect of the cell.
+[ ] Customize the navigation bar.
+Walkthrough
+Video Walkthrough
+![Video Walkthrough](RottenTomatto.gif)
+
+Credits
+Rotten Tomatoes API
+AFNetworking
